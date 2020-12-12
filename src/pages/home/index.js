@@ -5,7 +5,7 @@ import FeaturesSection from "./../../components/FeaturesSection";
 // import TeamBiosSection from "./../../components/TeamBiosSection";
 import NewsletterSection from "./../../components/NewsletterSection";
 import ContactSection from "./../../components/ContactSection";
-// import PricingSection from "./../../components/PricingSection";
+import PricingSection from "./../../components/PricingSection";
 // import StatsSection from "./../../components/StatsSection";
 import Footer from "./../../components/Footer";
 import { useRouter } from "./../../util/router.js";
@@ -45,6 +45,8 @@ function HomePage(props) {
         title="Meet the Team"
         subtitle=""
       /> */}
+      <PricingSection color="white" size="medium" title="Pricing" subtitle="" />
+
       <NewsletterSection
         color="white"
         size="medium"
@@ -54,6 +56,7 @@ function HomePage(props) {
         inputPlaceholder="メールアドレス"
         subscribedMessage="You are now subscribed!"
       />
+
       <ContactSection
         color="white"
         size="medium"
@@ -62,7 +65,6 @@ function HomePage(props) {
         showNameField={true}
         buttonText="Send message"
       />
-      {/* <PricingSection color="white" size="medium" title="Pricing" subtitle="" /> */}
       {/* <StatsSection
         color="white"
         size="medium"
