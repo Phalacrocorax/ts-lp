@@ -31,19 +31,17 @@ function FeaturesSection(props) {
                 link: "/features/2"
               },
               {
-                title: "会員サイト",
-                body: "会員ログイン、施術予約、お知らせ、会員情報確認",
-                image:
-                  "https://uploads.divjoy.com/undraw-stability_ball_b4ia.svg",
-                link: "/features/3"
+                title: "勤務管理",
+                body:
+                  "勤務時間の設定と管理。出勤・退勤打刻時間帯、フレックスタイム制などユスケース似合わせって設定できます。",
+                image: "/svg/undraw_features_overview_jg7a.svg"
+                // link: "/features/3"
               },
               {
-                title: "マーケティング",
-                body:
-                  "顧客が真に求める商品やサービスを作り、その情報を届け、顧客がその価値を効果的に得られるようにする",
-                image:
-                  "https://uploads.divjoy.com/undraw-personal_settings_kihd.svg",
-                link: "/features/4"
+                title: "日報・月報",
+                body: "レポートで社員の勤務情報把握できます。",
+                image: "/svg/undraw_personal_goals_edgd.svg"
+                // link: "/features/4"
               }
             ]}
           />

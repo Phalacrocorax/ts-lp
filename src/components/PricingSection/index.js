@@ -20,7 +20,7 @@ function PricingSection(props) {
             // Add your own payments logic here
             // alert(`You chose the plan "${planId}"`);
             alert(
-              `製品は近日公開予定です！興味ある方はぜひ、お問い合わせ（contact@timeshot.ml）またはメールアップデートを登録してください！`
+              `製品は近日公開予定です！興味ある方はぜひ、お問い合わせ（contact@timeshot.ml）またはニュースレターを登録してください！`
             );
           }}
           items={[
