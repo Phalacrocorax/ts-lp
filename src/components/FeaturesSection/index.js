@@ -19,15 +19,16 @@ function FeaturesSection(props) {
             columns={2}
             items={[
               {
-                title: "カウンセリング予約フォーム",
-                body: "面談・カウンセリング予約受付が簡単に始められる",
-                image: "https://uploads.divjoy.com/undraw-fish_bowl_uu88.svg",
+                title: "従業員管理",
+                body:
+                  "所属、住所、緊急連絡先、給与、賞罰等の全ての情報を管理できます。",
+                image: "/svg/Hire.svg",
                 link: "/features/1"
               },
               {
-                title: "基幹システム",
-                body: "会員管理、予約管理、スケジュール管理など",
-                image: "https://uploads.divjoy.com/undraw-directions_x53j.svg",
+                title: "有休管理簿",
+                body: "適切な有給休暇取得が行われているかを管理できます。",
+                image: "svg/a_day_off.svg",
                 link: "/features/2"
               },
               {

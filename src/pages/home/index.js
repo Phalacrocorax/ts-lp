@@ -25,7 +25,7 @@ function HomePage(props) {
         color="white"
         size="medium"
         title="Make work easier."
-        subtitle="無料でクラウド勤怠管理システムを使いますか？"
+        subtitle="無料のクラウド勤怠管理システムはいかがでしょうか？"
         buttonText="お問い合わせ"
         // image="https://uploads.divjoy.com/undraw-mind_map_cwng.svg"
         image="./svg/undraw_dev_productivity_umsq.svg"
