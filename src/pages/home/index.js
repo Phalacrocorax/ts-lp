@@ -30,7 +30,7 @@ function HomePage(props) {
         // image="https://uploads.divjoy.com/undraw-mind_map_cwng.svg"
         image="./svg/undraw_dev_productivity_umsq.svg"
         buttonOnClick={() => {
-          router.push("/pricing");
+          router.push("/#contact");
         }}
       />
       <FeaturesSection
@@ -89,9 +89,9 @@ function HomePage(props) {
       <Footer
         color="white"
         size="medium"
-        logo="https://uploads.divjoy.com/logo.svg"
-        description="A short description of what you do here"
-        copywrite="© 2019 Company"
+        // logo="https://uploads.divjoy.com/logo.svg"
+        description="シンプルさと実用性を兼ねる勤怠管理システム"
+        copywrite="© 2020 TimeShot Coperated."
       />
     </>
   );
