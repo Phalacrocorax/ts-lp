@@ -31,9 +31,9 @@ function FeaturesSection(props) {
                 link: "/features/2"
               },
               {
-                title: "勤務管理",
+                title: "勤務時間管理",
                 body:
-                  "勤務時間の設定と管理。出勤・退勤打刻時間帯、フレックスタイム制などユスケース似合わせって設定できます。",
+                  "勤務時間の設定と管理。出勤・退勤打刻時間帯、フレックスタイム制などユースケースに合わせて設定できます。",
                 image: "/svg/undraw_settings_ii2j.svg"
                 // link: "/features/3"
               },
