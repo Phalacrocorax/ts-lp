@@ -16,24 +16,26 @@ function PricingSection(props) {
         />
         <Pricing
           buttonText="Choose"
-          onChoosePlan={planId => {
+          onChoosePlan={(planId) => {
             // Add your own payments logic here
-            alert(`You chose the plan "${planId}"`);
+            // alert(`You chose the plan "${planId}"`);
+            alert(
+              `製品は近日公開予定です！興味ある方はぜひ、お問い合わせ（contact@timeshot.ml）またはメールアップデートを登録してください！`
+            );
           }}
           items={[
             {
-              id: "monthly",
-              timespan: "Monthly",
-              price: "29",
-              description:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam."
+              id: "free",
+              timespan: "Basic Plan",
+              price: "0",
+              description: "ユーザ上限５０人！基本機能利用可能です。"
             },
             {
-              id: "yearly",
-              timespan: "Yearly",
-              price: "19",
+              id: "extra",
+              timespan: "Extra Plan",
+              price: "3000",
               description:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae."
+                "ユーザ上限なし！~2021年2月4日まで新規登録してくれるとExtraプラン一年無料となります！Extraプランは今後追加していく機能全部無料で使えます！"
             }
           ]}
         />

@@ -17,16 +17,17 @@ function Pricing(props) {
                 {item.timespan}
               </div>
               <div className="Pricing__price has-text-weight-bold">
-                <span className="Pricing__price-symbol is-size-3">$</span>
+                <span className="Pricing__price-symbol is-size-3">￥</span>
                 <span className="is-size-1">{item.price}</span>
-                <span className="Pricing__price-month is-size-4">/m</span>
+                <span className="Pricing__price-month is-size-4">/月</span>
               </div>
               <p className="Pricing__description">{item.description}</p>
               <button
                 className="Pricing__button button is-medium is-primary"
                 onClick={() => props.onChoosePlan(item.id)}
               >
-                {props.buttonText}
+                {/* {props.buttonText} */}
+                利用する
               </button>
             </div>
           </div>
