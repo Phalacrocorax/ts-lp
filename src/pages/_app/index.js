@@ -1,6 +1,7 @@
 import React from "react";
 import HomePage from "./../home";
 import Features from "./../features";
+import About from "./../about";
 import { Switch, Route, Router } from "./../../util/router.js";
 // import { ProvideAuth } from "./../../util/auth.js";
 import "./styles.scss";
@@ -12,6 +13,7 @@ function App(props) {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/features/:id" component={Features} />
+        <Route path="/about/" component={About} />
 
         <Route
           component={({ location }) => {

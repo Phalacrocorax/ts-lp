@@ -37,9 +37,12 @@ function Navbar(props) {
             <Link className="navbar-item" to="/about">
               About
             </Link>
-            <Link className="navbar-item" to="/#pricing">
+            {/* <Link className="navbar-item" to="/#pricing">
               Pricing
-            </Link>
+            </Link> */}
+            <a className="navbar-item" href="/#pricing">
+              Pricing
+            </a>
             {/* <Link className="navbar-item" to="/faq">
               FAQ
             </Link> */}
