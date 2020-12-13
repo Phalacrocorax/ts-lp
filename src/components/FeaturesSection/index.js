@@ -39,7 +39,7 @@ function FeaturesSection(props) {
               },
               {
                 title: "日報・月報",
-                body: "レポートで社員の勤務情報把握できます。",
+                body: "レポートで社員の勤務情報を把握できます。",
                 image: "/svg/undraw_personal_goals_edgd.svg"
                 // link: "/features/4"
               }
